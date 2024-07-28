@@ -129,7 +129,7 @@ body {
 }
 
 .filter > label{
-	color: var(--nav-text);
+	color: var(--text-color);
 	font-weight: 700;
 	padding-left: 10px;
 	font-size: 20px;
@@ -197,15 +197,15 @@ body {
 .tabs button{
 	border-radius: 20px;
 	margin: 0 10px;
-	color: #fff;
+	color: var(--text-color);
 	font-weight: 500;
 	padding: 5px 15px;
 	transition: all .3s;
 }
 
 .tabs button:hover, .tabs button.active{
-	color: #000;
-	background: #fff;
+	color: var(--page-bg);
+	background: var(--text-color);
 }
 
 .tabs button:first-child{
