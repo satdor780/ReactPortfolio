@@ -20,7 +20,7 @@ import pr06Big from '../img/projects/06-big.jpg'
  const projects = [
     {
         id: 1,
-        title: 'Сайт для депутата Госдумы',
+        title: 'Website for the deputy',
         skills: 'react',
         type: 'wordpress',
         img: pr01,
@@ -31,7 +31,7 @@ import pr06Big from '../img/projects/06-big.jpg'
     },
     {
         id: 2,
-        title: 'Сайт про релокацию',
+        title: 'Website about relaxation',
         skills: 'react',
         type: 'wordpress',
         img: pr02,
@@ -43,7 +43,7 @@ import pr06Big from '../img/projects/06-big.jpg'
     },
     {
         id: 3,
-        title: 'Крипто биржа(P2P часть)',
+        title: 'Crypto Exchange(P2P part)',
         skills: 'react',
         type: 'html',
         img: pr03,
@@ -54,7 +54,7 @@ import pr06Big from '../img/projects/06-big.jpg'
     },
     {
         id: 4,
-        title: 'Интернет магазин',
+        title: 'Online store',
         skills: 'react',
         type: 'react',
         img: pr04,

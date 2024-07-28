@@ -47,7 +47,7 @@ export default function Projects() {
                                 onClick={() => setTraining(prev => !prev)}
                             ></label>
                         </div>
-                        <label htmlFor="training">Исключить пет-проекты</label>
+                        <label htmlFor="training">only real projects</label>
                     </div>
 
 
