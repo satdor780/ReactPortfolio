@@ -7,15 +7,15 @@ export default function Contacts(){
                     <ul className="content-list">
                         <li className="content-list__item">
                             <h2 className="title-2">Location</h2>
-                            <p>Moscow, Russia</p>
+                            <p>Uzbekistan, Tashkent</p>
                         </li>
                         <li className="content-list__item">
-                            <h2 className="title-2">Telegram / WhatsApp</h2>
-                            <p><a href="tel:+79051234567">+7 (905) 123-45-67</a></p>
+                            <h2 className="title-2">Telegram</h2>
+                            <p><a href="https://t.me/wojwz" target="_blank" >@w0jwz</a></p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Email</h2>
-                            <p><a href="mailto:webdev@protonmail.com">webdev@protonmail.com</a></p>
+                            <p><a href="mailto:sardorasrmidinov@gmail.com">sardorasrmidinov@gmail.com</a></p>
                         </li>
                     </ul>
 

@@ -30,6 +30,7 @@ export default function App() {
               <Route path="/Projects" element={<Projects/>}/>
               <Route path="/Contacts" element={<Contacts/>}/>
               <Route path="/Project/:id" element={<Project/>}/>
+              
             </Routes>
 
           <Footer/>

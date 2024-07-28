@@ -17,6 +17,8 @@ export default function Project(){
 
                         <img src={project.imgBig} alt="" className="project-details__cover"/>
 
+                        <p className="dec" >{project.dec}</p>
+
                         <div className="project-details__desc">
                             <p>{project.skills}</p>
                         </div>
