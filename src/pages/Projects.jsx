@@ -64,6 +64,7 @@ export default function Projects() {
                                 title={project.title}
                                 img={project.img}
                                 gitLink={project.githubLink}
+                                skills={project.skills}
                                 index={index}
                             />
                         ))}

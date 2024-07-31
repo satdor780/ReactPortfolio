@@ -90,9 +90,21 @@
 	border: 1px solid #000;
 	background-color: #fff;
 	color: #000;
-
+	line-height: 20px;
 	transition: opacity 0.2s ease-in;
+	width: 100%;
+	max-width: 170px;
+	justify-content: space-between;
 }
+
+.btn-outline.view{
+	margin-bottom: 20px;
+}
+
+.btn-outline.view svg{
+	height: 15px;
+}
+
 
 .btn-outline:hover {
 	opacity: 0.8;

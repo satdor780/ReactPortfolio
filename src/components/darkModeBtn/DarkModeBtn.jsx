@@ -10,7 +10,6 @@ export default function DarkModeBtn(){
     const btnRef = useRef(null)
 
     useEffect(() => {
-        console.log(darkMode)
         if(darkMode == 'dark'){
             document.body.classList.add('dark')
             btnRef.current.classList.add('dark-mode-btn--active')

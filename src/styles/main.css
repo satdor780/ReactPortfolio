@@ -217,6 +217,7 @@ body {
 	background-color: var(--project-card-bg);
 	box-shadow: var(--box-shadow);
 	border-radius: 10px;
+	height: 100%;
 }
 
 .project__img {
@@ -265,6 +266,27 @@ body {
     font-size: 17px;
     text-align: left;
 }
+
+.tags{
+	/* display: flex; */
+	margin-top: 5px;
+}
+
+.tags .tag{
+	border-radius: 20px;
+	margin: 5px 5px 0;
+	color: var(--page-bg);
+	font-size: 15px;
+	font-weight: 500;
+	padding: 2px 7px;
+	transition: all .3s;
+	background-color: var(--text-color);
+	display: inline-block;
+}
+
+/* .tags .tag:first-child{
+	margin-left: 3px;
+} */
 
 /* Content list */
 
