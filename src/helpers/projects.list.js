@@ -15,7 +15,7 @@ import pr05 from '../img/projects/motosurfing.png'
 
 import pr06 from '../img/projects/calc.png'
 
-import pr07 from '../img/projects/calc.png'
+import pr07 from '../img/projects/exchange.png'
 
 
  const projects = [
