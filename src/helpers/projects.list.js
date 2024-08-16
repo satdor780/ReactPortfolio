@@ -15,6 +15,8 @@ import pr05 from '../img/projects/motosurfing.png'
 
 import pr06 from '../img/projects/calc.png'
 
+import pr07 from '../img/projects/calc.png'
+
 
  const projects = [
     {
@@ -27,6 +29,17 @@ import pr06 from '../img/projects/calc.png'
         link: 'https://galinadanchikova.ru/',
         training: false,
         dec: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos libero consectetur temporibus velit. Obcaecati culpa nisi, explicabo sit suscipit asperiores.'
+    },
+    {
+        id: 7,
+        title: 'Exchange crypto',
+        skills: ['react', 'TypeScript' 'react-router-dom', 'redux toolkit', 'fake api'],
+        type: 'react',
+        img: pr07,
+        githubLink: 'https://github.com/satdor780/exchangeCrypto',
+        link: 'https://exchangecryptosite.netlify.app',
+        training: true,
+        dec: 'bla'
     },
     {
         id: 4,
