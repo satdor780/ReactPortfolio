@@ -4,28 +4,24 @@ import { projects } from '../helpers/projects.list.js';
 
 export default function Projects() {
 
-    const [training, setTraining] = useState(false);
-    const [tab, setTab] = useState('all')
+   const [training, setTraining] = useState(false);
+    const [tab, setTab] = useState('all');
     const [projectsList, setProjectsList] = useState(projects);
 
-    function isTraining(project) {
-        return !project.training;
-    }
-
     useEffect(() => {
-        const filteredProjects = training ? projects.filter(isTraining) : projects;
-        setProjectsList(filteredProjects);
-    }, [training]);
+        // Filter projects based on training and tab
+        const filteredProjects = training 
+            ? projects.filter(project => !project.training) 
+            : projects;
+
+        setProjectsList(tab === 'all' 
+            ? filteredProjects 
+            : filteredProjects.filter(project => project.type === tab));
+    }, [training, tab]);
 
     const tabFilter = (filter) => {
         setTab(filter);
-        if (filter == 'all') {
-            setProjectsList(projects);
-        }else{
-            const filteredProjects = projects.filter(product => product.type === filter);
-            setProjectsList(filteredProjects);
-        }
-    }
+    };
 
     return (
         <>
@@ -58,7 +54,7 @@ export default function Projects() {
                     </div>
 
                     <ul className="projects">
-                        {projectsList.map((project, index) => (
+                        {projectsList.length > 0 ? projectsList.map((project, index) => (
                             <Project
                                 key={project.id}
                                 title={project.title}
@@ -67,7 +63,7 @@ export default function Projects() {
                                 skills={project.skills}
                                 index={index}
                             />
-                        ))}
+                        )): <h5 className="projects__info">There is nothing (:</h5>}
                     </ul>
                 </div>
             </main>

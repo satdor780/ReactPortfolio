@@ -31,9 +31,9 @@ import pr07 from '../img/projects/exchange.png'
         dec: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos libero consectetur temporibus velit. Obcaecati culpa nisi, explicabo sit suscipit asperiores.'
     },
     {
-        id: 7,
+        id: 2,
         title: 'Exchange crypto',
-        skills: ['react', 'TypeScript' 'react-router-dom', 'redux toolkit', 'fake api'],
+        skills: ['react', 'TypeScript', 'react-router-dom', 'redux toolkit', 'fake api'],
         type: 'react',
         img: pr07,
         githubLink: 'https://github.com/satdor780/exchangeCrypto',
@@ -42,7 +42,7 @@ import pr07 from '../img/projects/exchange.png'
         dec: 'bla'
     },
     {
-        id: 4,
+        id: 3,
         title: 'Online store',
         skills: ['react', 'react-router-dom', 'redux toolkit', 'fake api'],
         type: 'react',
@@ -53,7 +53,7 @@ import pr07 from '../img/projects/exchange.png'
         dec: 'bla'
     },
     {
-        id: 2,
+        id: 4,
         title: 'Website about relaxation',
         skills: ['html/css', 'js', 'jqvery', 'wordpress'],
         type: 'wordpress',
@@ -65,7 +65,7 @@ import pr07 from '../img/projects/exchange.png'
         
     },
     {
-        id: 3,
+        id: 5,
         title: 'Crypto Exchange(P2P part)',
         skills: ['html/css', 'js'],
         type: 'html',
@@ -76,7 +76,7 @@ import pr07 from '../img/projects/exchange.png'
         dec: 'bla'
     },
     {
-        id: 5,
+        id: 6,
         title: 'Motosurfing',
         skills: ['html/css', 'js'],
         type: 'html',
@@ -87,7 +87,7 @@ import pr07 from '../img/projects/exchange.png'
         dec: 'bla'
     },
     {
-        id: 6,
+        id: 7,
         title: 'calculate',
         skills: ['html/css', 'js'],
         type: 'html',

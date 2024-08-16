@@ -284,6 +284,11 @@ body {
 	display: inline-block;
 }
 
+.projects__info{
+	font-size: 25px;
+	font-weight: 600;
+}
+
 /* .tags .tag:first-child{
 	margin-left: 3px;
 } */
