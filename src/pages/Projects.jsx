@@ -48,9 +48,9 @@ export default function Projects() {
 
 
                     <div className="tabs">
-                        <button className={tab == 'all' ? 'active': ''} onClick={() => tabFilter('all')}>all</button>
+                        <button className={tab == 'all' ? 'active': ''} onClick={() => tabFilter('all')}>All</button>
                         <button className={tab == 'react' ? 'active': ''} onClick={() => tabFilter('react')}>React</button>
-                        <button className={tab == 'wordpress' ? 'active': ''} onClick={() => tabFilter('wordpress')}>wordpress</button>
+                        <button className={tab == 'wordpress' ? 'active': ''} onClick={() => tabFilter('wordpress')}>Wordpress</button>
                     </div>
 
                     <ul className="projects">
@@ -63,7 +63,7 @@ export default function Projects() {
                                 skills={project.skills}
                                 index={index}
                             />
-                        )): <h5 className="projects__info">There is nothing (:</h5>}
+                        )): <h5 className="projects__info">There is nothing ):</h5>}
                     </ul>
                 </div>
             </main>

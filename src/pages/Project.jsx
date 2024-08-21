@@ -20,7 +20,7 @@ export default function Project(){
                         <p className="dec" >{project.dec}</p>
 
                         <div className="project-details__desc">
-                            <p>{project.skills.map(skill => skill + ' ')}</p>
+                            <p>{project.skills.join(', ')}</p>
                         </div>
                         
                         {project.link && (

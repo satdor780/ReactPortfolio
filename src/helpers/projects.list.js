@@ -17,85 +17,95 @@ import pr06 from '../img/projects/calc.png'
 
 import pr07 from '../img/projects/exchange.png'
 
+const html = 'HTML/CSS'
+const js = 'JS'
+const wp = 'Wordpress'
+const jq = 'Jqvery'
+const react = 'React'
+const router = 'React-router-dom'
+const redux = 'Redux toolkit'
+const type = 'TypeScript'
+const api = 'Api'
+
 
  const projects = [
     {
         id: 1,
         title: 'Website for the deputy',
-        skills: ['html/css', 'js', 'jqvery', 'wordpress'],
+        skills: [html, js, jq, wp],
         type: 'wordpress',
         img: pr01,
         githubLink: false,
         link: 'https://galinadanchikova.ru/',
         training: false,
-        dec: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos libero consectetur temporibus velit. Obcaecati culpa nisi, explicabo sit suscipit asperiores.'
+        dec: 'Website for a deputy. Layout and landing on WP.'
     },
     {
         id: 2,
         title: 'Exchange crypto',
-        skills: ['react', 'TypeScript', 'react-router-dom', 'redux toolkit', 'fake api'],
+        skills: [react, type, router, redux, api],
         type: 'react',
         img: pr07,
         githubLink: 'https://github.com/satdor780/exchangeCrypto',
         link: 'https://exchangecryptosite.netlify.app',
         training: true,
-        dec: 'bla'
+        dec: 'Site for cryptocurrency exchange. Requests to the server, the logic of currency exchange'
     },
     {
         id: 3,
         title: 'Online store',
-        skills: ['react', 'react-router-dom', 'redux toolkit', 'fake api'],
+        skills: [react, router, redux, api],
         type: 'react',
         img: pr04,
         githubLink: 'https://github.com/satdor780/haxaShop',
         link: 'https://hexashopnet.netlify.app',
         training: true,
-        dec: 'bla'
+        dec: 'Online store on React login/registration, requests for api, shopping cart, search, pagination'
     },
     {
         id: 4,
         title: 'Website about relaxation',
-        skills: ['html/css', 'js', 'jqvery', 'wordpress'],
+        skills: [html, js, jq, wp],
         type: 'wordpress',
         img: pr02,
         githubLink: false,
         link: 'https://life-oae.ru/',
         training: false,
-        dec: 'bla'
+        dec: 'Site about relocation. Layout and landing on WP. Login and registration, bookmarks. In the further functions of registration and login were removed'
         
     },
     {
         id: 5,
         title: 'Crypto Exchange(P2P part)',
-        skills: ['html/css', 'js'],
+        skills: [html, js],
         type: 'html',
         img: pr03,
         githubLink: false,
         link: 'https://beribit.app/',
         training: false,
-        dec: 'bla'
+        dec: 'Layout of P2P part of the exchange and modal windows.'
     },
     {
         id: 6,
         title: 'Motosurfing',
-        skills: ['html/css', 'js'],
+        skills: [html, js],
         type: 'html',
         img: pr05,
         githubLink: false,
         link: 'https://rental.motosurfing.com/',
         training: false,
-        dec: 'bla'
+        dec: 'Nothing complicated, layout on html/css and a little bit of js'
     },
     {
         id: 7,
         title: 'calculate',
-        skills: ['html/css', 'js'],
+        skills: [html, js],
         type: 'html',
         img: pr06,
         githubLink: 'https://github.com/satdor780/calculate',
         link: 'https://satdor780.github.io/calculate/',
         training: true,
-        dec: 'bla'
+        dec: 'Calculator on VanillaJS'
     },
 ]
 

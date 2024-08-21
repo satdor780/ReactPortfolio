@@ -263,7 +263,7 @@ body {
 
 .project-details .dec{
 	padding-bottom: 30px;
-    font-size: 17px;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -400,6 +400,11 @@ body {
 	.project-details__desc {
 		margin-bottom: 20px;
 		font-size: 22px;
+	}
+
+	.project-details .dec {
+	    font-size: 16px;
+	    text-align: center;
 	}
 
 	/* Content List */
