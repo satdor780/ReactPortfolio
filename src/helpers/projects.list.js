@@ -43,7 +43,7 @@ const api = 'Api'
     {
         id: 2,
         title: 'Exchange crypto',
-        skills: [react, type, router, redux, api],
+        skills: [react, type, router, redux, api, 'FSD architecture'],
         type: 'react',
         img: pr07,
         githubLink: 'https://github.com/satdor780/exchangeCrypto',
