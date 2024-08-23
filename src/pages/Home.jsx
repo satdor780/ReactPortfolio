@@ -12,7 +12,7 @@ export default function Home(){
                     <ul className="content-list">
                         <li className="content-list__item">
                             <h2 className="title-2">Frontend</h2>
-                            <p>HTML, CSS, JavaScript, Jqvery, ReactJS, Redux Toolkit, Git, Github, REST API, NPM, Vite, CSS Modules, Tailwind CSS</p>
+                            <p>HTML, CSS, JavaScript, TypeScript, Jqvery, ReactJS, Redux Toolkit, Git, Github, REST API, NPM, Vite, CSS Modules, Tailwind CSS</p>
                         </li>
                         <li className="content-list__item">
                             <h2 className="title-2">Backend</h2>
