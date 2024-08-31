@@ -30,7 +30,7 @@ const api = 'Api'
 
  const projects = [
     {
-        id: 1,
+        id: 0,
         title: 'Website for the deputy',
         skills: [html, js, jq, wp],
         type: 'wordpress',
@@ -41,7 +41,7 @@ const api = 'Api'
         dec: 'Website for a deputy. Layout and landing on WP.'
     },
     {
-        id: 2,
+        id: 1,
         title: 'Exchange crypto',
         skills: [react, type, router, redux, api, 'FSD architecture'],
         type: 'react',
@@ -49,10 +49,10 @@ const api = 'Api'
         githubLink: 'https://github.com/satdor780/exchangeCrypto',
         link: 'https://exchangecryptosite.netlify.app',
         training: true,
-        dec: 'Site for cryptocurrency exchange. Requests to the server, the logic of currency exchange'
+        dec: 'Site for cryptocurrency exchange. Requests to the server, the logic of currency exchange, designed it myself from scratch'
     },
     {
-        id: 3,
+        id: 2,
         title: 'Online store',
         skills: [react, router, redux, api],
         type: 'react',
@@ -63,7 +63,7 @@ const api = 'Api'
         dec: 'Online store on React login/registration, requests for api, shopping cart, search, pagination'
     },
     {
-        id: 4,
+        id: 3,
         title: 'Website about relaxation',
         skills: [html, js, jq, wp],
         type: 'wordpress',
@@ -75,7 +75,7 @@ const api = 'Api'
         
     },
     {
-        id: 5,
+        id: 4,
         title: 'Crypto Exchange(P2P part)',
         skills: [html, js],
         type: 'html',
@@ -86,7 +86,7 @@ const api = 'Api'
         dec: 'Layout of P2P part of the exchange and modal windows.'
     },
     {
-        id: 6,
+        id: 5,
         title: 'Motosurfing',
         skills: [html, js],
         type: 'html',
@@ -97,7 +97,7 @@ const api = 'Api'
         dec: 'Nothing complicated, layout on html/css and a little bit of js'
     },
     {
-        id: 7,
+        id: 6,
         title: 'calculate',
         skills: [html, js],
         type: 'html',

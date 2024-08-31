@@ -2,10 +2,10 @@ import { NavLink } from "react-router-dom"
 
 
 
-export default function Project({title, img, index, skills}){
+export default function Project({title, img, id, skills}){
 
     return(
-        <NavLink to={`/project/${index}`}>
+        <NavLink to={`/project/${id}`}>
             <li className="project">
                 <img src={img} alt={title} className="project__img"/>
                 <div className="tags">

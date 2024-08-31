@@ -61,7 +61,7 @@ export default function Projects() {
                                 img={project.img}
                                 gitLink={project.githubLink}
                                 skills={project.skills}
-                                index={index}
+                                id={project.id}
                             />
                         )): <h5 className="projects__info">There is nothing ):</h5>}
                     </ul>
