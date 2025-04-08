@@ -66,7 +66,7 @@ body {
 }
 
 /* .App{
-	
+
 } */
 
 /* General */
@@ -185,7 +185,7 @@ body {
 .tgl-light:checked + .tgl-btn {
 	background: #38383a;
 }
-  
+
 
 /* checkbox style end */
 
@@ -264,7 +264,7 @@ body {
 .project-details .dec{
 	padding-bottom: 30px;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .tags{
@@ -436,4 +436,8 @@ body {
 	.social__item {
 		width: 28px;
 	}
+}
+
+.none{
+	display: none;
 }

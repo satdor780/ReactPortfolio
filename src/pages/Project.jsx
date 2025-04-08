@@ -3,10 +3,11 @@ import { useParams } from 'react-router-dom'
 import GitBtn from "../components/githubBtn/gitBtn";
 import {projects} from "../helpers/projects.list"
 
-
 export default function Project(){
     const {id} = useParams()
+
     const project = projects[id]
+
     return(
         <>
             <main className="section">
@@ -17,12 +18,12 @@ export default function Project(){
 
                         <img src={project.img} alt="" className="project-details__cover"/>
 
-                        <p className="dec" >{project.dec}</p>
+                        <p className="dec">{project.dec}</p>
 
                         <div className="project-details__desc">
                             <p>{project.skills.join(', ')}</p>
                         </div>
-                        
+
                         {project.link && (
                             <a href={project.link} className="btn-outline view" target="_blank">
                                view site
@@ -34,8 +35,6 @@ export default function Project(){
                             <GitBtn link={project.githubLink} />
                         )}
 
-                        
-                        
                     </div>
                 </div>
             </main>

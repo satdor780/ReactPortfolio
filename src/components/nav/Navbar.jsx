@@ -10,7 +10,7 @@ export default function Navbar(){
         <nav className="nav">
             <div className="container">
                 <div className="nav-row">
-                    <NavLink to="/" className="logo"><strong>Freelancer</strong> portfolio</NavLink>
+                    <NavLink to="/" className="logo"><strong>Portfolio</strong></NavLink>
                     {/* <a href="./index.html"></a> */}
 
                    <DarkModeBtn/>

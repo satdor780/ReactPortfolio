@@ -9,9 +9,15 @@ export default function Header(){
                     a frontend developer
                 </h1>
                 <div className="header__text">
-                    <p>with passion for learning and creating.</p>
+                    <p>With passion for learning and creating.</p>
                 </div>
-                <a href="#!" className="btn">Download CV</a>
+                <a
+                  href="https://tashkent.hh.uz/applicant/resumes/view?resume=3cc8c37dff0e87e5a70039ed1f514659744e33"
+                  className="btn"
+                  target="_blank"
+                >
+                    View CV
+                </a>
             </div>
         </header>
     )

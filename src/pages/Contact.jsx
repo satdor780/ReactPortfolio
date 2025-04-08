@@ -18,7 +18,6 @@ export default function Contacts(){
                             <p><a href="mailto:sardorasrmidinov@gmail.com">sardorasrmidinov@gmail.com</a></p>
                         </li>
                     </ul>
-
             </div>
         </main>
     )

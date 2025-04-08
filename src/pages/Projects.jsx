@@ -9,13 +9,12 @@ export default function Projects() {
     const [projectsList, setProjectsList] = useState(projects);
 
     useEffect(() => {
-        // Filter projects based on training and tab
-        const filteredProjects = training 
-            ? projects.filter(project => !project.training) 
+        const filteredProjects = training
+            ? projects.filter(project => !project.training)
             : projects;
 
-        setProjectsList(tab === 'all' 
-            ? filteredProjects 
+        setProjectsList(tab === 'all'
+            ? filteredProjects
             : filteredProjects.filter(project => project.type === tab));
     }, [training, tab]);
 
@@ -29,32 +28,34 @@ export default function Projects() {
                 <div className="container">
                     <h2 className="title-1">Projects</h2>
 
-                    <div className="filter">
-                        <div className="checkbox__button">
-                            <input
-                                type="checkbox"
-                                checked={training}
-                                className="cb1 tgl tgl-light"
-                                id="training"
-                            />
-                            <label 
-                                htmlFor="training" 
-                                className="tgl-btn" 
-                                onClick={() => setTraining(prev => !prev)}
-                            ></label>
-                        </div>
-                        <label htmlFor="training">only real projects</label>
+                    <div className="filter none">
+                      <div className="checkbox__button">
+                        <input
+                        type="checkbox"
+                        checked={training}
+                        className="cb1 tgl tgl-light"
+                        id="training"
+                        />
+
+                        <label
+                        htmlFor="training"
+                        className="tgl-btn"
+                        onClick={() => setTraining(prev => !prev)}
+                        ></label>
+
+                      </div>
+                      <label htmlFor="training">only real projects</label>
                     </div>
 
 
                     <div className="tabs">
-                        <button className={tab == 'all' ? 'active': ''} onClick={() => tabFilter('all')}>All</button>
-                        <button className={tab == 'react' ? 'active': ''} onClick={() => tabFilter('react')}>React</button>
-                        <button className={tab == 'wordpress' ? 'active': ''} onClick={() => tabFilter('wordpress')}>Wordpress</button>
+                        <button className={tab === 'all' ? 'active': ''} onClick={() => tabFilter('all')}>All</button>
+                        <button className={tab === 'react' ? 'active': ''} onClick={() => tabFilter('react')}>React</button>
+                        <button className={tab === 'wordpress' ? 'active': ''} onClick={() => tabFilter('wordpress')}>Wordpress</button>
                     </div>
 
                     <ul className="projects">
-                        {projectsList.length > 0 ? projectsList.map((project, index) => (
+                        {projectsList.length > 0 ? projectsList.map((project) => (
                             <Project
                                 key={project.id}
                                 title={project.title}
@@ -70,18 +71,3 @@ export default function Projects() {
         </>
     );
 }
-
-// function filterProjects() {
-//     switch (activeTab) {
-//         case 'react':
-//             return projects.filter(project => project.training);
-//         case 'wordpress':
-//             return projects.filter(project => project.real); // Предполагается, что у вас есть поле real
-//         default:
-//             return projects;
-//     }
-// }
-
-// useEffect(() => {
-//     setProjectsList(filterProjects());
-// }, [tab]);
